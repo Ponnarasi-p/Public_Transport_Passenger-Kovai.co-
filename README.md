@@ -43,8 +43,28 @@ Action:
 
 Run more buses/trains on weekdays (especially Monday–Friday mornings and evenings).
 
-Reduce frequency or merge routes on weekends to save operational costs.
 
-Weekend demand can be handled with smaller vehicles (mini buses or EVs).
+2.Observation: The “School” service spikes during school months and nearly drops to zero during vacations.
+ Action:
 
-Impact: Lower fuel cost, better utilization, fewer empty rides.
+Use school buses for other routes during holidays (to avoid idle assets).
+
+Automatically adjust schedules before/after vacation periods.
+
+3.Dynamic Peak-Hour Scheduling
+
+ Observation: “Peak Service” and “Local Route” have a strong positive correlation.
+ Action:
+
+Increase frequency between 7–10 AM and 5–8 PM (office commute hours).
+
+Reduce frequency during mid-day when ridership is low.
+
+4.Event & Holiday-based Campaign Planning
+
+ Observation: Sharp drops or spikes in total passengers correspond to holidays or public events.
+ Action:
+
+During major events (like Diwali, Pongal, or sports matches), deploy extra temporary routes.
+
+
