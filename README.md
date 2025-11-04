@@ -36,3 +36,12 @@ The ARIMA model effectively captures these short-term fluctuations.
 The ARIMA(0, 0, 2) model successfully forecasts near-term passenger counts with reasonable accuracy.
 Its interpretability, simplicity, and strong statistical foundation make it suitable for short-term forecasting in public transport analytics.
 For future improvements, SARIMA or Prophet models could be explored to capture complex seasonal patterns or holiday effects.
+
+4to 5 Key Insights: 1.Weekly Seasonality Detected: Passenger count shows a clear weekly pattern — peaks on weekdays and dips on weekends. 2.Service Type Comparison:
+Local Route contributes the highest number of daily passengers.
+Light Rail and Rapid Route have steady but lower volumes.
+School category peaks only during school months.
+3.COVID/Post-COVID Recovery or Event Spikes: The dataset shows occasional dips/spikes, which may be due to external factors like holidays or public events.
+4.Correlation Between Service Types: Services like Local Route and Peak Service are positively correlated — when general passengers increase, peak-hour usage also rises. 
+5.Growth Trend in Public Transport Usage: Overall passenger journeys have a gradual upward trend, indicating increased public transport usage over time.
+
