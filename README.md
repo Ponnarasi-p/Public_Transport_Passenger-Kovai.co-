@@ -1,6 +1,6 @@
 The goal of this analysis is to forecast daily passenger counts for different public transport service types — Local Route, Light Rail, Peak Service, Rapid Route, and School. The dataset consists of daily journey counts over multiple years, allowing trend, seasonality, and correlation analysis.
-Based on statistical testing and model evaluation, the ARIMA (AutoRegressive Integrated Moving Average) model was chosen for forecasting due to its strong performance on stationary time series data.
-The ARIMA model is a classic statistical time series forecasting technique that combines three components:1.AR (AutoRegressive) 2.I (Integrated) 3.MA (Moving Average).The general ARIMA model is denoted as ARIMA(p, d, q).
+ Based on statistical testing and model evaluation, the ARIMA (AutoRegressive Integrated Moving Average) model was chosen for forecasting due to its strong performance on stationary time series data.
+ The ARIMA model is a classic statistical time series forecasting technique that combines three components:1.AR (AutoRegressive) 2.I (Integrated) 3.MA (Moving Average).The general ARIMA model is denoted as ARIMA(p, d, q).
 3. Steps Performed
   Data Cleaning & Aggregation:
   Missing values in individual service columns (e.g., “Other”) were filled using mean imputation.
